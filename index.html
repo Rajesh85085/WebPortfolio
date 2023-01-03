@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/725dc37308.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span id="logo">R</span>AJESH</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Profile</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                
+                <h1>Hi, I'm <span>Rajesh </span><br>From chennai.</h1>
+                <h2>Welcome to my web Portfolio.</h2>
+            </div>
+        </div>
+    </div>
+<!--    ----------About----------     --> 
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About ME</h1>
+                <p>My name is Rajesh. I am from chennai. I am learning Full Stack developer at IT vedant</p>
+                <p>I have 5 years of Experience in Supply Chain management. I wanted to switch my career as a Software Engineer.</p>
+                <p>I am seeking an opportunity in IT Sector to upSkill my career.</p>
+
+                <div class="tab-titles">
+                    <p  class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p  class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p  class="tab-links active-link" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Web Designing: HTML, CSS and JavaScript</li>
+                        <li><span>SQL</span><br>MY SQL</li>
+                        <li><span>Basic Skills in Coding</span><br>C and C++ Languages</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-current</span><br>Full Stack Learner at ITvedant</li>
+                        <li><span>2018-2022</span><br>SAP Consultant at Quess Corp Limited</li>
+                        <li><span>2017-2018</span><br>Material co-ordinator at Maxeed Limited</li>
+                        <li><span>2016-2017</span><br>TSG Engineer at vayam info tech solutions</li>
+                        <li><span>2015-2016</span><br>DEO at Swamy and sons private Limited</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2015</span><br>BE ECE from RMCET.</li>
+                        <li><span>2011</span><br>HSC from TN State Board.</li>
+                        <li><span>2009</span><br>Xth from TN State Board.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--  -------Services--------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Profile</h1>
+        <div class="services-list">
+            <div>
+                <i><u>Project</u></i>
+                <h2><u>Resource Conscious Secure Routing protocol for WSNs</u></h2>
+                <p>In RCS routing protocol, each sensor node needs to maintain the energy levels of its immediate 
+                    adjacent neighboring grids in addition to their relative locations. Using this information, 
+                    each sensor node can create varying filters based on the expected design tradeoff between security and efficiency.
+                    The quantitative security analysis demonstrates the proposed algorithm can protect the  source location information from the adversaries. 
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                
+                <i><u>Goals</u></i> <br><br>               
+                <h3><u>Short Time Goal</u></h3><br>
+                <p>My short-term goal is to get a job in a reputed company in which I can grow my working skills and get more and more knowledge which helps me in future.
+                </p><br>
+                <h3><u>Long Time Goal</u></h3><br>
+                    <p>My long-term goals are to earn new responsibilities within the company, ultimately reaching higher positions as they open and helping the company succeed.</p><br>
+                <h3><u>Future Goal</u></h3><br>
+                <p>I will see myself as an Entrepreneur in the future.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i><u>Passion</u></i> <br><br>
+                <p>“I put a high priority on my health, so I’m really passionate about fitness. 
+                    I work out four or five times a week and keep a daily journal of my meals. 
+                    This has helped me stay disciplined, learn what works for me and where I can improve, 
+                    and keep track of my short- and long-term fitness goals.”
+                </p><br><br>
+                <i><u>Hobbies</u></i> <br><br>
+                <p>
+                    My hobbies are playing cricket, Exercising, Hearing Songs, watching OTT series and Googling.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--  -------Portfolio--------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The App connects you to the talented people around the world.
+                    Download it from play store.
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </p>
+                </div>
+        </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The App connects you to the talented people around the world.
+                        Download it from play store.
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </p>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The App connects you to the talented people around the world.
+                            Download it from play store.
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </p>
+                    </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--  ---------COntact-------      -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> llrajrajl@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8072185085</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Rajesh 2022</p>
+    </div>
+</div>
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbycqnkxJwhDOji4w98HjjmEaeq8SPNkAWaxy2zxiKZ1VfKFiJcu0oxgHOCE_gqXQw_W/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
